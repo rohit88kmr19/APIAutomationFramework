@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.988">
+           time="4.780">
     <properties></properties>
 
 
 
             <testcase
                 name="testVerifyCreateBookingPOST01"
-                time="3.988"
+                time="4.780"
                 classname="org.example.actions.crud.testCreateBookingTCPost$testCreateBookingTCPOST">
             </testcase>
 </testsuite>
