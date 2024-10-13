@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="D:/APIAutomationFramework"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.809">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testDeleteBookingById"
+                time="1.522"
+                classname="org.example.actions.crud.TCIntegraFlow02">
+            </testcase>
+            <testcase
+                name="testCreateBooking"
+                time="8.641"
+                classname="org.example.actions.crud.TCIntegraFlow02">
+            </testcase>
+            <testcase
+                name="testVerifyBookingId"
+                time="1.646"
+                classname="org.example.actions.crud.TCIntegraFlow02">
+            </testcase>
+</testsuite>
