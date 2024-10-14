@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.example.actions.listeners.RetryListener"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="D:/APIAutomationFramework">
+        <classes>
+         <!--   <class name="org.example.actions.crud.TCIntegrationFlow">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testUpdateBookingByID"/>
+                    <include name="testDeleteBookingById"/>
+                </methods>
+            </class> -->
+            <class name="org.example.actions.crud.TCIntegraFlowRetry03">
+            </class>
+        </classes>
+    </test>
+</suite>
